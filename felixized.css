@@ -1,0 +1,45 @@
+html.hosted #wrap {
+  margin: auto;
+  padding: 15px;
+  max-width: none !important;
+  min-height: 0;
+}
+
+iframe {
+    position: relative;
+    display: block !important;
+    box-sizing: content-box !important;
+    width: 100% !important;
+    height: 1500px !important;	/* some large number */
+}
+div #kplayer {
+    overflow: visible !important;
+}
+.kaltura-player-container #contentframe {
+    height: 2000px !important;
+}
+
+.videoHolder {
+	width: 100% !important;
+}
+
+#content, #row-fluid {
+	width: 100vw !important;
+}
+
+div {
+    font-family: Times New Roman, Serif !important;
+}
+
+.no-overflow {
+	overflow: visible !important;
+}
+
+.container-fluid {
+    max-width: none !important;
+}
+
+#wrap {
+    margin: 0px !important;
+    max-width: none !important;
+}
